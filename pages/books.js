@@ -4,8 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbComs from '../public/images//models-of-the-mind.jpeg'
-
-
+import weShouldAllBeFemenist from '../public/images//we-should-all-be-femenist.jpeg'
 const Books = () => (
   <Layout title="Books">
     <Container>
@@ -19,7 +18,11 @@ const Books = () => (
             Cool book on the Math, Science and Philosophy of the brain.
           </WorkGridItem>
         </Section>
-       
+     <Section>
+          <WorkGridItem id="index" title="We Should All Be Femenist" thumbnail={weShouldAllBeFemenist}>
+            Understanding about Intersectional Feminism in the lens of a women of color.
+          </WorkGridItem>
+        </Section>
       </SimpleGrid>
     </Container>
   </Layout>

@@ -30,7 +30,7 @@ const Projects = () => (
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Windows/macOS/Linux</span>
+          <span>ios</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>

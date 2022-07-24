@@ -116,7 +116,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
            <text style={{ color: "pink" }}>Anime</text>, <text style={{ color: "yellow" }}>Philosophy</text>,
-          <text style={{ color: "orange" }}>Movies</text>,  <text style={{ color: "green" }}>Tech Politics</text>,  <text style={{ color: "blue" }}>Science</text>, <text style={{ color: "orange" }}> Neural Networks </text>
+          <text style={{ color: "orange" }}> Movies</text>,  <text style={{ color: "green" }}>Tech Politics</text>,  <text style={{ color: "blue" }}>Science</text>, <text style={{ color: "orange" }}> Neural Networks </text>
         </Paragraph>
       </Section>
 

@@ -4,6 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbComs from '../public/images/works/gator-carpool-2.png'
+import gatorpages from '../public/images/works/gatorpages.png'
 
 
 const Works = () => (
@@ -18,6 +19,11 @@ const Works = () => (
           <WorkGridItem id="GatorCarpool" title="Gator Carpool" thumbnail={thumbComs}>
       A carpooling app, allows University of Florida students to carpool with each other. After chatting, riders can request rides from drivers, and drivers can accept them.
           </WorkGridItem>
+        </Section>
+
+             <Section>
+          <WorkGridItem id="GatorPages" title="Gator Pages" thumbnail={gatorpages}>
+This project's goal is to comprehend the grasp of how efficient large platform web search applications (Google.com, Yahoo.com, Bing.com) execute search with great speed.          </WorkGridItem>
         </Section>
         {/* <Section>
           <WorkGridItem

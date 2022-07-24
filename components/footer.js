@@ -3,7 +3,6 @@ import { Box } from '@chakra-ui/react'
 const Footer = () => {
   return (
     <Box align="center" opacity={0.4} fontSize="sm">
-      &copy; {new Date().getFullYear()} Inspired by Vishwas Saini. All Rights Reserved.
     </Box>
   )
 }

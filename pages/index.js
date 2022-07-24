@@ -35,7 +35,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Currently Interning at CircleCI!
+        Currently Interning at CircleCI
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -155,6 +155,15 @@ const Home = () => (
                 @James Luberisse
               </Button>
             </Link>
+          </ListItem>
+          <ListItem>
+       
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+              >
+            <a href = "mailto: jluberisse@ufl.edu">jluberisse@ufl.edu</a>
+              </Button>
           </ListItem>
        
         </List>

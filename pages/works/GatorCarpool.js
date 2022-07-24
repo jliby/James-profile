@@ -16,7 +16,7 @@ const Projects = () => (
   <Layout title="Canteen Management System">
     <Container>
       <Title>
-      Gator Carpool <Badge>2021-</Badge>
+      Gator Carpool <Badge>2021</Badge>
       </Title>
       <P>
       A carpooling app, allows University of Florida students to carpool with each other. After chatting, riders can request rides from drivers, and drivers can accept them.

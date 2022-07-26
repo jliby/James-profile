@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbComs from '../public/images//models-of-the-mind.jpeg'
+
 
 
 const Blog = () => (

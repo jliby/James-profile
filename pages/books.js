@@ -3,8 +3,10 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbComs from '../public/images//models-of-the-mind.jpeg'
-import weShouldAllBeFemenist from '../public/images//we-should-all-be-femenist.jpeg'
+import thumbComs from '../public/images/books/models-of-the-mind.jpeg'
+import weShouldAllBeFemenist from '../public/images/books/we-should-all-be-femenist.jpeg'
+import handsOnNeuroEvolution from '../public/images/books/smaller.png'
+
 const Books = () => (
   <Layout title="Books">
     <Container>
@@ -22,6 +24,11 @@ const Books = () => (
           <WorkGridItem id="index" title="We Should All Be Femenist" thumbnail={weShouldAllBeFemenist}>
             Understanding about Intersectional Feminism in the lens of a women of color.
           </WorkGridItem>
+        </Section>
+
+           <Section>
+          <WorkGridItem id="index" title="Hands-On Neuroevolution with Python" thumbnail={handsOnNeuroEvolution}>
+ Covers reinforcement learning, path planning for autonomous agents, and developing agents to autonomously play games.         </WorkGridItem>
         </Section>
       </SimpleGrid>
     </Container>

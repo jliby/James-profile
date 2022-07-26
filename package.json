@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Vishwas Saini",
+  "author": "",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^1.1.7",
